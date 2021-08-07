@@ -1,0 +1,95 @@
+body{
+    margin:0;
+}
+#navbar{
+    background-color: #131921;
+    height: 65px;
+}
+#navbar img{
+    width: 200px;
+    position: relative;
+    left: 20px;
+    top:17px;
+}
+#navbar li{
+    display: inline-block;
+    margin-left: 40px;
+    color: white;
+}
+#navbar .secondary {
+    position: absolute;
+    left: 970px;
+    top: 0px;
+ }
+ #carrinho{
+     color: white;
+     font-size: 30px;
+ }
+ #navbar .primary{
+     position: absolute;
+     left: 180px;
+     top:0px;
+ }
+ #navbar a{
+     text-decoration: none;
+     color: white;
+     border:0;
+     position: relative;
+ }
+ #navbar a::after{
+     content: " ";
+     width: 0%;
+     height: 2px;
+     background-color: #febd69;
+     position: absolute;
+     bottom: 0;
+     left:0;
+     transition: 0.5s ease-in-out;
+ }
+ #navbar a:hover::after{
+     width: 100%;
+ }
+ #gps{
+     font-size: 20px;
+     position: absolute;
+     left:-18px;
+     top: 14px;
+ }
+ .item1{
+    position: relative;
+    left:15px;
+ }
+ .search{
+     position: absolute;
+     left: 285px;
+     width: 522px;
+     height: 41px;
+     top: 1px;
+ }
+ .search:hover{
+     border: 3px solid orange;
+ }
+ #lupa{
+     position: absolute;
+     left: 765px;
+     top: 0px;
+     font-size: 30px;
+     background-color: #febd69;
+     padding: 6px;
+     border-radius: 6px;
+ }
+ #bar{
+     background-color: #232f3e;
+     height: 39px;
+ }
+ #bar a{
+    color: white;
+    text-decoration: none;
+    font-family: inherit;
+    font-size: 18px;
+    line-height: 1em;
+    position: relative;
+    top:9px;
+    font-weight: 500;
+    margin-left: 18px;
+ }
